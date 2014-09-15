@@ -1,0 +1,67 @@
+body,html {
+	margin: 0;
+	padding: 0;
+}
+
+form {
+
+	/*
+	width: 250px;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	margin-top: -100px;
+	margin-left: -100px;
+	*/
+
+	/*This is another way. Not so good.*/
+	/*
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top: -50px;
+	margin-left: -50px;
+	width: 250px;
+	height: 250px;
+	*/
+
+	/*This is one way to do it*/
+	
+	position: absolute;
+	margin: auto;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	width: 250px;
+	height: 100px;
+
+	/*This is my old way*/
+	/*
+	margin: 0 auto;
+	width: 250px;
+	*/
+}
+
+/*Changing the border of input box*/
+/*
+textarea:focus, input:focus, input[type]:focus, .uneditable-input:focus {   
+    border-color: rgba(229, 103, 23, 0.8);
+    box-shadow: 0 1px 1px rgba(229, 103, 23, 0.075) inset, 0 0 8px rgba(229, 103, 23, 0.6);
+    outline: 0 none;
+}
+*/
+
+.red-text {
+	color: red;
+	display: none;
+}
+
+.green-text {
+	color: green;
+	display: none;
+}
+
+button {
+	width: 250px;
+}
